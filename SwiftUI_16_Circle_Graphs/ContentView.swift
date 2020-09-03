@@ -13,9 +13,24 @@ struct ContentView: View {
                     .font(.system(.largeTitle, design: .rounded))
                 
                 CircleBar(percentage: self.percentage)
+                
+                Button(action: {
+                    self.percentage = 0
+                    Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
+                        self.percentage += 0.1
+                        if self.percentage == 100 {
+                            timer.invalidate()
+                        }
+                    }
+                }) {
+                    Text("Iniciar")
+                        .font(.system(.title, design: .rounded))
+                        .foregroundColor(.white)
+                }
+                
             }
         }.onAppear{
-            self.percentage = 80.34
+//            self.percentage = 80.34
         }
     }
 }
