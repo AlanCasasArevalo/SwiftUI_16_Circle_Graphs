@@ -13,6 +13,7 @@
 		518E519425010FA30023D77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E519325010FA30023D77C /* Assets.xcassets */; };
 		518E519725010FA30023D77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E519625010FA30023D77C /* Preview Assets.xcassets */; };
 		518E519A25010FA30023D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E519825010FA30023D77C /* LaunchScreen.storyboard */; };
+		518E51A22501113D0023D77C /* CircleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51A12501113D0023D77C /* CircleBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		518E519625010FA30023D77C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		518E519925010FA30023D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518E519B25010FA30023D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518E51A12501113D0023D77C /* CircleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				518E518D25010FA10023D77C /* AppDelegate.swift */,
 				518E518F25010FA10023D77C /* SceneDelegate.swift */,
 				518E519125010FA10023D77C /* ContentView.swift */,
+				518E51A12501113D0023D77C /* CircleBar.swift */,
 				518E519325010FA30023D77C /* Assets.xcassets */,
 				518E519825010FA30023D77C /* LaunchScreen.storyboard */,
 				518E519B25010FA30023D77C /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				518E518E25010FA10023D77C /* AppDelegate.swift in Sources */,
+				518E51A22501113D0023D77C /* CircleBar.swift in Sources */,
 				518E519025010FA10023D77C /* SceneDelegate.swift in Sources */,
 				518E519225010FA10023D77C /* ContentView.swift in Sources */,
 			);
